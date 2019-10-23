@@ -1,0 +1,119 @@
+.container{
+
+width: 100%;
+height: auto;
+
+
+}
+.inner{
+
+width:90%;
+height: auto;
+margin: 0 auto;
+background-image: url(images/soft-light-gray-background_41txvnyy__F0000.png);
+background-position: center;
+
+}
+
+
+
+
+
+
+
+header{
+    background-color: olivedrab;
+    height: 120px;
+}
+ 
+ul{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+ul li{
+    display: inline;
+    padding-right: 200px;
+}
+
+a{
+    text-decoration: none;
+
+    
+    font-size: 22px;
+    color:white;
+}
+
+footer{
+    background-color: olivedrab;
+    height: 150px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+
+    text-align: center;
+    font-size: 40px;
+
+    padding-top: 100px;
+    font-style: oblique;
+}
+
+#slike{
+display: flex;
+justify-content:space-around;
+flex-wrap: wrap;
+margin-bottom: 70px;
+
+
+
+}
+article{
+    margin-bottom: 20px;
+    border: 2px solid olivedrab;
+    box-shadow: rgb(136, 179, 51) 4px 4px;
+}
+
+p{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+#podaci{
+
+    height: 300px;
+    
+    width: 90%;
+    margin: 100px auto;
+
+    padding: 50px;
+    background-color:goldenrod;
+    border: 2px solid rgb(59, 71, 34);
+    border-radius: 60%;
+    
+    
+
+
+}
+h3{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#levi{
+
+padding: 40px;
+
+}
+#desni{
+    padding: 40px;
+    
+    
+}
+button a {
+    color: gray;
+    font-size: 16px;
+}
