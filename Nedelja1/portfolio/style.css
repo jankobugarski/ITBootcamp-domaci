@@ -24,6 +24,7 @@ background-position: center;
 header{
     background-color: olivedrab;
     height: 120px;
+    
 }
  
 ul{
@@ -116,4 +117,9 @@ padding: 40px;
 button a {
     color: gray;
     font-size: 16px;
+}
+
+header{
+    position: sticky;
+    top: 0;
 }
