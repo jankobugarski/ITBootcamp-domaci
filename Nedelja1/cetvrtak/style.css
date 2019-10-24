@@ -1,0 +1,40 @@
+tr,td{
+
+border: 2px solid black;
+
+}
+th{
+
+    background-color: fuchsia;
+}
+body{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+    section,header,footer{
+
+        margin-left: 100px;
+        margin-top:50px ;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    li{
+        display: inline;
+        margin: 100px 125px;
+        
+    
+        
+    }
+    div{padding: 20px;}
+
+    caption{
+padding-top: 50px;
+font-size: 22px;
+
+    }
+table{padding: 80px;}
+td{background-color: gold;}
