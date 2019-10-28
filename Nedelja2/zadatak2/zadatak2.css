@@ -1,0 +1,61 @@
+tr,td{
+
+    border: 2px solid black;
+    
+    }
+    th{
+    
+        background-color: fuchsia;
+    }
+    body{
+        font-weight: bold;
+        font-size: 20px;
+        background-color: rgb(205, 235, 255);
+    }
+    
+        section,header,footer{
+    
+            margin-left: 100px;
+            margin-top:50px ;
+        }
+    
+        h1{
+            text-align: center;
+            padding-bottom: 100px;
+        }
+    
+        li{
+            display: inline;
+            margin: 100px 125px;
+            
+        
+            
+        }
+        div{padding: 20px;}
+    
+        caption{
+    padding-top: 50px;
+    font-size: 22px;
+    
+        }
+    table{padding: 80px;}
+    td{background-color: gold;}
+    
+    
+    input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+    form{
+        display: inline-block;
+        margin-top: 100px;
+    }
+    .kraj{text-align: center;}
+    
+        
+    
