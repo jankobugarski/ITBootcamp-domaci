@@ -1,3 +1,5 @@
+// napomena:pretpostavio sam da ce nece biti dve pizze iste cene 
+
 function pizzaPrice(p, r) {
 
 
@@ -58,3 +60,32 @@ function cenaPizze(r1,r2,r3,p1,p2,p3,fn){
 }
 cenaPizze(25,16,18,1000,1900,1500,maxNumber);
 console.log(d)
+
+// zadaci od cetvrtaka:
+
+let niz=[1,17,13,15,25,35,36,44,50];
+function divisibleByFive(arr){
+
+
+for(i=0;i<=arr.length;i++){
+
+    if(arr[i] % 5==0 ){
+
+        console.log(arr[i])
+    }
+}
+
+
+}
+
+divisibleByFive(niz)
+
+function lifeSupply(numPerMonth,age){
+
+let godine=100- age;
+ return numPerMonth*12*godine;
+
+
+} 
+let rez=lifeSupply(10,26)
+console.log(rez)
