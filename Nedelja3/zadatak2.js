@@ -1,4 +1,5 @@
-// napomena:pretpostavio sam da ce nece biti dve pizze iste cene 
+// napomena:pretpostavio sam da ce nece biti dve pizze iste cene jer bi bio problem oko ispisa
+// ispod sam uradio na drugi nacin gde postoji mogucnost da kostaju isto
 
 function pizzaPrice(p, r) {
 
@@ -58,7 +59,36 @@ function cenaPizze(r1,r2,r3,p1,p2,p3,fn){
 
     
 }
-cenaPizze(25,16,18,1000,1900,1500,maxNumber);
+
+  function  minNumber(a,b,c){ 
+
+    if(a<=b && a<=c){
+
+        return a;
+    }
+    
+    else if(b<=a && b<=c){
+    
+        return b;
+    
+    
+    }
+    
+    else { return c;
+    
+    }
+
+}
+    
+
+
+
+
+
+
+
+cenaPizze(25,16,18,1000,1900,1500,minNumber);
+
 console.log(d)
 
 // zadaci od cetvrtaka:

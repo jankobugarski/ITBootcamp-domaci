@@ -9,6 +9,7 @@ let sati=datumO.getHours();
 let minuti=datumO.getMinutes();
 
 
+
 button.forEach(element => {
     element.addEventListener('click', function () {
 
