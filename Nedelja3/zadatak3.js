@@ -2,11 +2,7 @@ let counter = document.getElementById('counter');
 let button = document.querySelectorAll('.btn-order');
 let brojac = 0;
 let buttonNow=document.querySelectorAll('.btn-order-now');
-let datumO=new Date();
-let datum=datumO.getDate();
-let mesec=datumO.getMonth();
-let sati=datumO.getHours();
-let minuti=datumO.getMinutes();
+
 
 
 
@@ -22,7 +18,11 @@ button.forEach(element => {
 
 buttonNow.forEach(element1 => {
     element1.addEventListener('click',function(){
-
+        let datumO=new Date();
+        let datum=datumO.getDate();
+        let mesec=datumO.getMonth();
+        let sati=datumO.getHours();
+        let minuti=datumO.getMinutes();
 
         if(brojac !== 0){
 
