@@ -103,15 +103,18 @@ function handleCheckChange(e) {
 // 6. zadatak
 let remove = document.getElementById('btn-remove');
 remove.addEventListener('click', function (e) {
-    let chkDone1 = document.querySelector('.chk-state');
-    if (chkDone1.checked) {
-        // console.log('hi')
-        let obrisi = document.querySelector('.task-check')
-        // console.log(obrisi)
-        let divtoRemove = obrisi.parentElement
-        divtoRemove.remove()
+    let chkDone1 = document.querySelectorAll('.chk-state');
+    chkDone1.forEach(element => {
+        if (element.checked) {
+            // console.log('hi')
+            let obrisi = document.querySelector('.task-check')
+            // console.log(obrisi)
+            let divtoRemove = obrisi.parentElement
+            divtoRemove.remove()
 
-    }
+        };
+
+    })
 })
 // 7. zadatak
 let invert = document.getElementById('btn-invert')
@@ -161,7 +164,7 @@ invert.addEventListener('click', function () {
 
 // remove.addEventListener('click', function () {
 
-    
+
 //     if (chkDone2.checked) {
 //         let obrisi = difficDiv
 //         obrisi.remove()
