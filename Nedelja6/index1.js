@@ -15,7 +15,7 @@
     // 4. HTTP zahtev formira browser kad zelimo da trazimo nesto od servera .Taj zahtev se prenosi 
     //  preko protokola i prima ga api servera i prosledjuje do servera.On se sastoji od headera,
     //  metode(get,put,post,delete..)i body-ja.Api je deo servera,to je zapravo interfejs koji 
-        // omogucava komunikaciju izmedju klijenta i ServiceUIFrameContext.On prima HTTp zahtev i
+        // omogucava komunikaciju izmedju klijenta i servera.On prima HTTp zahtev i
         // i prosledjuje odgovor 
         
         // 5.Dvostruko jednako pokazuje da je nesto jednako po vrednosti,a trostruko da je 
