@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // napomena:pretpostavio sam da ce nece biti dve pizze iste cene jer bi bio problem oko ispisa
 // ispod sam uradio na drugi nacin gde postoji mogucnost da kostaju isto
 
@@ -119,3 +120,10 @@ let godine=100- age;
 } 
 let rez=lifeSupply(10,26)
 console.log(rez)
+=======
+function cenaPoPovrsini(cena,r){
+    return cena / (r*r*Math.PI);
+}
+
+console.log(cenaPoPovrsini(300,20));
+>>>>>>> fefe01b1c6f0aca7ff3601da3d62cd930050f636
